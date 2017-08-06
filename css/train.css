@@ -454,6 +454,7 @@ ul:after {
     height: 1px;
     background: #78b035;
     color: #78b035;
+    text-overflow: hidden;
 }
 .scroll_ww{
     position:absolute;
@@ -477,32 +478,34 @@ ul:after {
 }
 .discipline{
     position: relative;
-    top: 120px;
+    top: 100px;
     left: 220px;
-    width: 8500px;
+    width: 850px;
     height: 820px;
     overflow: hidden;
 }
 .discipline_di1{
-    position: absolute;
+    position: relative;
+    padding: 0;
+    top: 70px;
     width: 770px;
-    height: 820px;
+    height: 800px;
     overflow: hidden;
 }
 .discipline_di2{
     position: relative;
+    top: 0;
     width: 770px;
 }
 .discipline_area{
     display: block;
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .discipline_title{
     font-size: 16px;
     color: #fd6b2f;
     margin-bottom: 30px;
     display: block;
-    margin-top: 30px;
 }
 .discipline_main{
     font-size: 14px;
@@ -513,9 +516,11 @@ ul:after {
     padding-bottom: 20px;
     padding-top: 20px;
     border-bottom: 1px solid #78b035;
+    text-overflow: hidden;
 }
 .discipline_main span{
     line-height: 40px;
+    text-overflow: hidden;
 }
 .mi_btn_box {
     position: absolute;
