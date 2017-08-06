@@ -407,35 +407,35 @@ ul:after {
 }
 .knowledge{
     position: relative;
-    top: 140px;
+    top: 180px;
     width: 900px;
     padding-right: 54px;
-    height: 800px;
+    height: 750px;
     overflow: hidden;
     left: 200px;
 }
 .knowledge_kn1{
     position: absolute;
     width: 810px;
-    height: 800px;
+    height: 750px;
     overflow: hidden;
 }
 .knowledge_kn2{
     position: relative;
-    width: 810px;
+    padding-bottom: 20px;
 }
 .knowledge_area{
     position: relative;
     width: 810px;
-    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 .knowledge_title{
     display: block;
     font-size: 16px;
     font-family: "Microsoft YaHei";
     color: #fd6b2f;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .knowledge_main{
     display: block;
@@ -480,8 +480,8 @@ ul:after {
     position: relative;
     top: 100px;
     left: 220px;
-    width: 850px;
-    height: 820px;
+    width: 855px;
+    height: 850px;
     overflow: hidden;
 }
 .discipline_di1{
@@ -499,7 +499,8 @@ ul:after {
 }
 .discipline_area{
     display: block;
-    margin-bottom: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 .discipline_title{
     font-size: 16px;
